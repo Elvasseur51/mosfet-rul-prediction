@@ -1,0 +1,25 @@
+This folder/repository contains the main files used during my research internship project on power MOSFET degradation analysis and Remaining Useful Life (RUL) prediction.
+
+Since the original NASA dataset contains many raw files and a large volume of data, I did not include every file used during the project. Instead, I selected the main notebooks and one processed dataset that best represent the methodology and workflow of the study. The complete original dataset can be found on the NASA repository:
+https://www.nasa.gov/intelligent-systems-division/discovery-and-systems-health/pcoe/pcoe-data-set-repository/
+
+Files included in this repository:
+
+1. notebook_2_cycle_aggregation_test9_runs1to3.ipynb
+This notebook focuses on the reconstruction of cycles and the aggregation of raw measurements into a cycle-based dataset. It shows how the data from different runs can be reorganized and prepared for analysis. This step is important because it transforms raw experimental signals into a more structured format that can be used for degradation study and modeling.
+
+2. Test_9_runs_1_to_3_cycle_agg_concat.csv
+This CSV file is the processed and aggregated dataset obtained from the cycle reconstruction step. It contains the main variables used in the project, such as cycle information, current, voltage, temperature, and RDS(on)-related indicators. This file provides a cleaner and more compact representation of the raw data, making the analysis easier.
+
+3. notebook final KOFFI ELVASSEUR.ipynb
+This notebook presents the final stage of the work. It includes the main analysis pipeline used in the project: preprocessing, smoothing, degradation analysis, estimation of quantities such as N_fail and RUL, comparison of approaches, and predictive modeling using deep learning methods such as LSTM.
+
+Overall, the files shared here are intended to give a clear view of the main steps of the project:
+- organizing and reconstructing the raw data,
+- aggregating measurements by cycle,
+- analyzing MOSFET degradation,
+- and exploring prediction approaches for Remaining Useful Life.
+
+This repository does not contain the full raw dataset, but it includes the key elements needed to understand the general methodology followed during the internship.
+
+Constructive feedback and suggestions are welcome.
