@@ -1,4 +1,4 @@
-This folder/repository contains the main files used during my research internship project on power MOSFET degradation analysis and Remaining Useful Life (RUL) prediction.
+This folder repository contains the main files used during my research internship project on power MOSFET degradation analysis and Remaining Useful Life (RUL) prediction.
 
 Since the original NASA dataset contains many raw files and a large volume of data, I did not include every file used during the project. Instead, I selected the main notebooks and one processed dataset that best represent the methodology and workflow of the study. The complete original dataset can be found on the NASA repository:
 https://www.nasa.gov/intelligent-systems-division/discovery-and-systems-health/pcoe/pcoe-data-set-repository/
